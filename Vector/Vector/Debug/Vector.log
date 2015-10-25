@@ -1,0 +1,20 @@
+﻿生成启动时间为 2015/10/22 13:57:58。
+     1>项目“D:\workSpace\Algorithm\Weiss\Vector\Vector\Vector.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\WorkSoft\VS2013\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\workspace\algorithm\weiss\vector\vector\vector.h(106): error C2065: “ostream_iterator”: 未声明的标识符
+                 d:\workspace\algorithm\weiss\vector\vector\vector.h(105): 编译类 模板 成员函数“void Vector<int>::output(std::ostream &) const”时
+                 d:\workspace\algorithm\weiss\vector\vector\vector.h(121): 参见对正在编译的函数 模板 实例化“void Vector<int>::output(std::ostream &) const”的引用
+                 d:\workspace\algorithm\weiss\vector\vector\main.cpp(8): 参见对正在编译的类 模板 实例化“Vector<int>”的引用
+     1>d:\workspace\algorithm\weiss\vector\vector\vector.h(106): error C2275: “T”: 将此类型用作表达式非法
+                 d:\workspace\algorithm\weiss\vector\vector\main.cpp(8) : 参见“T”的声明
+     1>d:\workspace\algorithm\weiss\vector\vector\vector.h(106): error C2780: “_OutTy *std::copy(_InIt,_InIt,_OutTy (&)[_OutSize])”: 应输入 3 个参数，却提供了 2 个
+                 d:\worksoft\vs2013\program\vc\include\xutility(2140) : 参见“std::copy”的声明
+     1>d:\workspace\algorithm\weiss\vector\vector\vector.h(106): error C2780: “_OutIt std::copy(_InIt,_InIt,_OutIt)”: 应输入 3 个参数，却提供了 2 个
+                 d:\worksoft\vs2013\program\vc\include\xutility(2122) : 参见“std::copy”的声明
+     1>已完成生成项目“D:\workSpace\Algorithm\Weiss\Vector\Vector\Vector.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.54
